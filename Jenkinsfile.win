@@ -20,8 +20,8 @@
 
 pipeline {
 
-    parameters {
-        choice(name: 'Interface Name', choices: ['IDD-001','IDD-002'], description" '')
+   parameters {
+        choice(name: 'Interface Name', choices: ['IDD-001','IDD-002'], description: '')
     }
     agent any 
 
